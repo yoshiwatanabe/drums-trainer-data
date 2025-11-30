@@ -82,7 +82,7 @@
     {
       "id": "8beat-i",
       "name": "8-Beat I",
-      "description": "Roll patterns - Snare and tom rolls for hand movement practice",
+      "description": "Cymbal practice - Crash and ride patterns synchronized with kick",
       "patterns": [
         "8beat_i_001.json", "8beat_i_002.json", "8beat_i_003.json", "8beat_i_004.json", "8beat_i_005.json",
         "8beat_i_006.json", "8beat_i_007.json", "8beat_i_008.json", "8beat_i_009.json", "8beat_i_010.json",
@@ -94,3 +94,4 @@
     }
   ]
 }
+
