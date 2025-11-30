@@ -1,0 +1,176 @@
+{
+  "id": "8beat_g_004",
+  "name": "8-Beat G #4",
+  "bpm": 70,
+  "timeSignature": "4/4",
+  "events": [
+    {
+      "time": 0.0,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 0.0,
+      "note": "kick",
+      "velocity": 110
+    },
+    {
+      "time": 0.5,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 0.5,
+      "note": "tom_high",
+      "velocity": 105
+    },
+    {
+      "time": 1.0,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 1.0,
+      "note": "snare",
+      "velocity": 100
+    },
+    {
+      "time": 1.0,
+      "note": "kick",
+      "velocity": 110
+    },
+    {
+      "time": 1.5,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 2.0,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 2.0,
+      "note": "kick",
+      "velocity": 110
+    },
+    {
+      "time": 2.0,
+      "note": "tom_mid",
+      "velocity": 100
+    },
+    {
+      "time": 2.5,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 3.0,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 3.0,
+      "note": "snare",
+      "velocity": 100
+    },
+    {
+      "time": 3.0,
+      "note": "kick",
+      "velocity": 110
+    },
+    {
+      "time": 3.0,
+      "note": "tom_floor",
+      "velocity": 110
+    },
+    {
+      "time": 3.5,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 3.5,
+      "note": "tom_mid",
+      "velocity": 105
+    }
+  ],
+  "notation": {
+    "vexflow": {
+      "staves": [
+        {
+          "timeSignature": "4/4",
+          "voices": [
+            {
+              "clef": "percussion",
+              "time": {
+                "num_beats": 4,
+                "beat_value": 4
+              },
+              "notes": [
+                {
+                  "keys": [
+                    "f/4",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "d/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "c/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "b/4",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "c/5",
+                    "a/4",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "b/4",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

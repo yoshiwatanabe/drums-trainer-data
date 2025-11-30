@@ -30,6 +30,41 @@
         "8beat_d_021.json", "8beat_d_022.json", "8beat_d_023.json", "8beat_d_024.json", "8beat_d_025.json",
         "8beat_d_026.json", "8beat_d_027.json", "8beat_d_028.json", "8beat_d_029.json", "8beat_d_030.json"
       ]
+    },
+    {
+      "id": "8beat-e",
+      "name": "8-Beat E",
+      "description": "Single Tom fills - High tom variations with varied kick patterns",
+      "patterns": [
+        "8beat_e_001.json", "8beat_e_002.json", "8beat_e_003.json", "8beat_e_004.json", "8beat_e_005.json",
+        "8beat_e_006.json", "8beat_e_007.json", "8beat_e_008.json", "8beat_e_009.json", "8beat_e_010.json",
+        "8beat_e_011.json", "8beat_e_012.json", "8beat_e_013.json", "8beat_e_014.json", "8beat_e_015.json",
+        "8beat_e_016.json", "8beat_e_017.json", "8beat_e_018.json", "8beat_e_019.json", "8beat_e_020.json",
+        "8beat_e_021.json", "8beat_e_022.json", "8beat_e_023.json", "8beat_e_024.json", "8beat_e_025.json"
+      ]
+    },
+    {
+      "id": "8beat-f",
+      "name": "8-Beat F",
+      "description": "Two Tom fills - High and mid tom combinations",
+      "patterns": [
+        "8beat_f_001.json", "8beat_f_002.json", "8beat_f_003.json", "8beat_f_004.json", "8beat_f_005.json",
+        "8beat_f_006.json", "8beat_f_007.json", "8beat_f_008.json", "8beat_f_009.json", "8beat_f_010.json",
+        "8beat_f_011.json", "8beat_f_012.json", "8beat_f_013.json", "8beat_f_014.json", "8beat_f_015.json",
+        "8beat_f_016.json", "8beat_f_017.json", "8beat_f_018.json", "8beat_f_019.json", "8beat_f_020.json",
+        "8beat_f_021.json", "8beat_f_022.json", "8beat_f_023.json", "8beat_f_024.json", "8beat_f_025.json"
+      ]
+    },
+    {
+      "id": "8beat-g",
+      "name": "8-Beat G",
+      "description": "Three Tom fills - Full tom setup with descending patterns",
+      "patterns": [
+        "8beat_g_001.json", "8beat_g_002.json", "8beat_g_003.json", "8beat_g_004.json", "8beat_g_005.json",
+        "8beat_g_006.json", "8beat_g_007.json", "8beat_g_008.json", "8beat_g_009.json", "8beat_g_010.json",
+        "8beat_g_011.json", "8beat_g_012.json", "8beat_g_013.json", "8beat_g_014.json", "8beat_g_015.json",
+        "8beat_g_016.json", "8beat_g_017.json", "8beat_g_018.json", "8beat_g_019.json", "8beat_g_020.json"
+      ]
     }
   ]
 }
