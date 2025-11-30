@@ -1,7 +1,78 @@
 {
   "name": "8beat_i_028",
   "description": "ライド - 中盤集中",
-  "notation": "b/4/8/r b/4/8/r (f/4, f/5)/8 (f/4, f/5)/8 (f/4, f/5)/8 b/4/8/r b/4/8/r b/4/8/r",
+  "notation": {
+    "vexflow": {
+      "staves": [
+        {
+          "timeSignature": "4/4",
+          "voices": [
+            {
+              "clef": "percussion",
+              "notes": [
+                {
+                  "keys": [
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "c/5",
+                    "f/4",
+                    "f/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "f/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "f/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "c/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "g/5"
+                  ],
+                  "duration": "8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
   "events": [
     {
       "time": 0.0,

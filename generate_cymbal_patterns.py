@@ -23,40 +23,65 @@ def create_basic_accompaniment():
     events.append({"time": 3.0, "note": "snare", "velocity": 0.8})
     return events
 
-def create_vexflow_notation(kick_events, cymbal_events):
-    """Generate VexFlow notation for kick + cymbal patterns"""
-    notation = []
+def create_vexflow_notation(all_events):
+    """Generate VexFlow notation for complete pattern including hihat and snare"""
+    # VexFlow note positions
+    NOTE_POSITIONS = {
+        'kick': 'f/4',
+        'snare': 'c/5',
+        'hihat_closed': 'g/5',
+        'hihat_open': 'g/5',  # Same position, different symbol
+        'crash': 'a/5',
+        'ride': 'f/5',
+        'tom_high': 'd/5',
+        'tom_mid': 'b/4',
+        'tom_floor': 'a/4'
+    }
     
-    # Group events by time for simultaneous notes
+    # Group events by time
     events_by_time = {}
-    for evt in kick_events + cymbal_events:
+    for evt in all_events:
         time = evt["time"]
         if time not in events_by_time:
             events_by_time[time] = []
         events_by_time[time].append(evt["note"])
     
-    current_time = 0.0
-    
-    while current_time < 4.0:
-        notes = events_by_time.get(current_time, [])
+    # Generate notes for each 8th note position
+    notes = []
+    for i in range(8):  # 8 eighth notes in 4/4
+        time = i * 0.5
+        event_notes = events_by_time.get(time, [])
         
-        if notes:
-            # Build chord for simultaneous notes
-            note_positions = []
-            if "kick" in notes:
-                note_positions.append("f/4")
-            if "crash" in notes:
-                note_positions.append("a/5")
-            if "ride" in notes:
-                note_positions.append("f/5")
-            
-            notation.append(f"({', '.join(note_positions)})/8")
+        if event_notes:
+            keys = [NOTE_POSITIONS[note] for note in event_notes]
+            # Remove duplicates and sort
+            keys = sorted(list(set(keys)))
+            notes.append({
+                "keys": keys,
+                "duration": "8"
+            })
         else:
-            notation.append("b/4/8/r")  # 8th rest
-        
-        current_time += 0.5
+            # Rest
+            notes.append({
+                "keys": ["b/4"],
+                "duration": "8r"
+            })
     
-    return " ".join(notation)
+    return {
+        "vexflow": {
+            "staves": [
+                {
+                    "timeSignature": "4/4",
+                    "voices": [
+                        {
+                            "clef": "percussion",
+                            "notes": notes
+                        }
+                    ]
+                }
+            ]
+        }
+    }
 
 def generate_pattern(number, kick_pattern, cymbal_type, description):
     """
@@ -113,7 +138,7 @@ def generate_pattern(number, kick_pattern, cymbal_type, description):
     events.sort(key=lambda e: (e["time"], e["note"]))
     
     # Generate VexFlow notation
-    notation = create_vexflow_notation(kick_events, cymbal_events)
+    notation = create_vexflow_notation(events)
     
     pattern = {
         "name": f"8beat_i_{number:03d}",

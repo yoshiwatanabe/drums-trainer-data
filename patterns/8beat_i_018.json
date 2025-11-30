@@ -1,7 +1,88 @@
 {
   "name": "8beat_i_018",
   "description": "クラッシュ&ライド - 全8分音符",
-  "notation": "(f/4, a/5)/8 (f/4, f/5)/8 (f/4, a/5)/8 (f/4, f/5)/8 (f/4, a/5)/8 (f/4, f/5)/8 (f/4, a/5)/8 (f/4, f/5)/8",
+  "notation": {
+    "vexflow": {
+      "staves": [
+        {
+          "timeSignature": "4/4",
+          "voices": [
+            {
+              "clef": "percussion",
+              "notes": [
+                {
+                  "keys": [
+                    "a/5",
+                    "f/4",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "f/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "a/5",
+                    "c/5",
+                    "f/4",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "f/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "a/5",
+                    "f/4",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "f/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "a/5",
+                    "c/5",
+                    "f/4",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "f/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
   "events": [
     {
       "time": 0.0,
