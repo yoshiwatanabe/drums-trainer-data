@@ -30,11 +30,6 @@
       "velocity": 100
     },
     {
-      "time": 1.0,
-      "note": "kick",
-      "velocity": 110
-    },
-    {
       "time": 1.5,
       "note": "hihat_closed",
       "velocity": 80
@@ -50,19 +45,9 @@
       "velocity": 110
     },
     {
-      "time": 2.0,
-      "note": "tom_high",
-      "velocity": 100
-    },
-    {
       "time": 2.5,
       "note": "hihat_closed",
       "velocity": 80
-    },
-    {
-      "time": 2.5,
-      "note": "tom_high",
-      "velocity": 95
     },
     {
       "time": 3.0,
@@ -75,14 +60,9 @@
       "velocity": 100
     },
     {
-      "time": 3.0,
-      "note": "kick",
-      "velocity": 110
-    },
-    {
       "time": 3.5,
-      "note": "hihat_closed",
-      "velocity": 80
+      "note": "tom_high",
+      "velocity": 95
     }
   ],
   "notation": {
@@ -113,7 +93,6 @@
                 },
                 {
                   "keys": [
-                    "f/4",
                     "c/5",
                     "g/5"
                   ],
@@ -128,21 +107,18 @@
                 {
                   "keys": [
                     "f/4",
-                    "d/5",
                     "g/5"
                   ],
                   "duration": "8"
                 },
                 {
                   "keys": [
-                    "d/5",
                     "g/5"
                   ],
                   "duration": "8"
                 },
                 {
                   "keys": [
-                    "f/4",
                     "c/5",
                     "g/5"
                   ],
@@ -150,7 +126,7 @@
                 },
                 {
                   "keys": [
-                    "g/5"
+                    "d/5"
                   ],
                   "duration": "8"
                 }

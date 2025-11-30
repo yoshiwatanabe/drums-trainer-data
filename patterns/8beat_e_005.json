@@ -31,18 +31,8 @@
     },
     {
       "time": 1.5,
-      "note": "hihat_closed",
-      "velocity": 80
-    },
-    {
-      "time": 1.5,
-      "note": "kick",
-      "velocity": 105
-    },
-    {
-      "time": 1.5,
       "note": "tom_high",
-      "velocity": 95
+      "velocity": 100
     },
     {
       "time": 2.0,
@@ -51,23 +41,13 @@
     },
     {
       "time": 2.0,
-      "note": "tom_high",
-      "velocity": 105
-    },
-    {
-      "time": 2.5,
-      "note": "hihat_closed",
-      "velocity": 80
-    },
-    {
-      "time": 2.5,
       "note": "kick",
       "velocity": 110
     },
     {
       "time": 2.5,
-      "note": "tom_high",
-      "velocity": 105
+      "note": "hihat_closed",
+      "velocity": 80
     },
     {
       "time": 3.0,
@@ -120,23 +100,19 @@
                 },
                 {
                   "keys": [
-                    "f/4",
-                    "d/5",
-                    "g/5"
-                  ],
-                  "duration": "8"
-                },
-                {
-                  "keys": [
-                    "d/5",
-                    "g/5"
+                    "d/5"
                   ],
                   "duration": "8"
                 },
                 {
                   "keys": [
                     "f/4",
-                    "d/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
                     "g/5"
                   ],
                   "duration": "8"
