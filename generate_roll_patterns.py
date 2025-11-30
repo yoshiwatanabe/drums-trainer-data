@@ -253,22 +253,21 @@ def create_roll_patterns():
     
     return patterns
 
-def create_basic_accompaniment():
-    """Basic hihat and kick for context"""
-    return [
-        {"time": 0.0, "note": "hihat_closed", "velocity": 80},
+def create_basic_accompaniment(roll_positions):
+    """Basic hihat and kick for context, excluding hihat at roll positions"""
+    events = [
         {"time": 0.0, "note": "kick", "velocity": 110},
-        {"time": 0.5, "note": "hihat_closed", "velocity": 80},
-        {"time": 1.0, "note": "hihat_closed", "velocity": 80},
         {"time": 1.0, "note": "snare", "velocity": 100},
-        {"time": 1.5, "note": "hihat_closed", "velocity": 80},
-        {"time": 2.0, "note": "hihat_closed", "velocity": 80},
-        {"time": 2.0, "note": "kick", "velocity": 110},
-        {"time": 2.5, "note": "hihat_closed", "velocity": 80},
-        {"time": 3.0, "note": "hihat_closed", "velocity": 80},
-        # No snare at 3.0 - replaced by roll
-        {"time": 3.5, "note": "hihat_closed", "velocity": 80}
+        {"time": 2.0, "note": "kick", "velocity": 110}
     ]
+    
+    # Add hihat at all 8th note positions except where rolls occur
+    for i in range(8):
+        time_pos = i * 0.5
+        if time_pos not in roll_positions:
+            events.append({"time": time_pos, "note": "hihat_closed", "velocity": 80})
+    
+    return events
 
 def create_vexflow_notation(events):
     """Create VexFlow notation for the pattern"""
@@ -324,8 +323,11 @@ def generate_pattern(number, roll_events):
     """Generate a single pattern"""
     pattern_id = f"8beat_i_{number:03d}"
 
+    # Extract roll positions to exclude hihat at those times
+    roll_positions = set(evt["time"] for evt in roll_events)
+
     events = []
-    events.extend(create_basic_accompaniment())
+    events.extend(create_basic_accompaniment(roll_positions))
     events.extend(roll_events)
 
     events.sort(key=lambda x: (x["time"], x["note"]))
