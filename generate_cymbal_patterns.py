@@ -22,11 +22,11 @@ def create_basic_accompaniment(cymbal_positions):
             events.append({
                 "time": time,
                 "note": "hihat_closed",
-                "velocity": 0.6
+                "velocity": 80
             })
     # Snare on beats 2 and 4
-    events.append({"time": 1.0, "note": "snare", "velocity": 0.8})
-    events.append({"time": 3.0, "note": "snare", "velocity": 0.8})
+    events.append({"time": 1.0, "note": "snare", "velocity": 100})
+    events.append({"time": 3.0, "note": "snare", "velocity": 100})
     return events
 
 def create_vexflow_notation(all_events):
@@ -107,7 +107,7 @@ def generate_pattern(number, kick_pattern, cymbal_type, description):
         kick_events.append({
             "time": time,
             "note": "kick",
-            "velocity": 0.8
+            "velocity": 110
         })
     events.extend(kick_events)
     
@@ -118,18 +118,18 @@ def generate_pattern(number, kick_pattern, cymbal_type, description):
             cymbal_events.append({
                 "time": time,
                 "note": "crash",
-                "velocity": 0.9
+                "velocity": 110
             })
         elif cymbal_type == "ride":
             cymbal_events.append({
                 "time": time,
                 "note": "ride",
-                "velocity": 0.7
+                "velocity": 90
             })
         elif cymbal_type == "mixed":
             # Alternate between crash and ride
             note = "crash" if (len(cymbal_events) % 2 == 0) else "ride"
-            velocity = 0.9 if note == "crash" else 0.7
+            velocity = 110 if note == "crash" else 90
             cymbal_events.append({
                 "time": time,
                 "note": note,
