@@ -15,19 +15,9 @@
       "velocity": 80
     },
     {
-      "time": 0.0,
-      "note": "kick",
-      "velocity": 110
-    },
-    {
       "time": 0.5,
       "note": "hihat_closed",
       "velocity": 80
-    },
-    {
-      "time": 0.5,
-      "note": "kick",
-      "velocity": 110
     },
     {
       "time": 0.875,
@@ -46,8 +36,8 @@
     },
     {
       "time": 1.5,
-      "note": "snare",
-      "velocity": 50
+      "note": "kick",
+      "velocity": 110
     },
     {
       "time": 2.0,
@@ -58,6 +48,16 @@
       "time": 2.5,
       "note": "hihat_closed",
       "velocity": 80
+    },
+    {
+      "time": 2.5,
+      "note": "snare",
+      "velocity": 90
+    },
+    {
+      "time": 2.5,
+      "note": "kick",
+      "velocity": 110
     },
     {
       "time": 2.875,
@@ -78,11 +78,6 @@
       "time": 3.5,
       "note": "hihat_closed",
       "velocity": 80
-    },
-    {
-      "time": 3.5,
-      "note": "kick",
-      "velocity": 110
     }
   ],
   "notation": {
@@ -96,56 +91,103 @@
               "notes": [
                 {
                   "keys": [
-                    "f/4",
                     "g/5"
                   ],
-                  "duration": "8"
+                  "duration": "16"
+                },
+                {
+                  "keys": [
+                    "b/4"
+                  ],
+                  "duration": "16r"
+                },
+                {
+                  "keys": [
+                    "g/5"
+                  ],
+                  "duration": "16"
+                },
+                {
+                  "keys": [
+                    "b/4"
+                  ],
+                  "duration": "16r"
+                },
+                {
+                  "keys": [
+                    "g/5"
+                  ],
+                  "duration": "16"
+                },
+                {
+                  "keys": [
+                    "b/4"
+                  ],
+                  "duration": "16r"
                 },
                 {
                   "keys": [
                     "f/4",
                     "g/5"
                   ],
-                  "duration": "8"
+                  "duration": "16"
+                },
+                {
+                  "keys": [
+                    "b/4"
+                  ],
+                  "duration": "16r"
                 },
                 {
                   "keys": [
                     "g/5"
                   ],
-                  "duration": "8"
+                  "duration": "16"
                 },
                 {
                   "keys": [
+                    "b/4"
+                  ],
+                  "duration": "16r"
+                },
+                {
+                  "keys": [
+                    "f/4",
                     "c/5",
                     "g/5"
                   ],
-                  "duration": "8"
+                  "duration": "16"
                 },
                 {
                   "keys": [
-                    "g/5"
+                    "b/4"
                   ],
-                  "duration": "8"
-                },
-                {
-                  "keys": [
-                    "g/5"
-                  ],
-                  "duration": "8"
+                  "duration": "16r"
                 },
                 {
                   "keys": [
                     "f/4",
                     "g/5"
                   ],
-                  "duration": "8"
+                  "duration": "16"
                 },
                 {
                   "keys": [
-                    "f/4",
+                    "b/4"
+                  ],
+                  "duration": "16r"
+                },
+                {
+                  "keys": [
                     "g/5"
                   ],
-                  "duration": "8"
+                  "duration": "16"
+                },
+                {
+                  "keys": [
+                    "b/4"
+                  ],
+                  "duration": "16r"
                 }
               ]
             }

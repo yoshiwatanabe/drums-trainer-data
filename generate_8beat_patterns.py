@@ -135,31 +135,64 @@ def create_vexflow_notation(events):
             time_map[t] = []
         time_map[t].append(evt["note"])
     
-    # Create VexFlow notes for 8th notes
-    notes = []
-    for i in range(8):
-        t = i * 0.5
-        instruments = time_map.get(t, [])
-        
-        keys = []
-        if "kick" in instruments:
-            keys.append("f/4")
-        if "snare" in instruments:
-            keys.append("c/5")
-        if "hihat_closed" in instruments:
-            keys.append("g/5")
-        
-        if keys:
-            notes.append({
-                "keys": keys,
-                "duration": "8"
-            })
-        else:
-            # Rest
-            notes.append({
-                "keys": ["b/4"],
-                "duration": "8r"
-            })
+    # Get all unique time positions and sort them
+    all_times = sorted(set([evt["time"] for evt in events]))
+    
+    # Determine if we need 16th notes
+    has_sixteenth_notes = any(t % 0.5 != 0 for t in all_times)
+    
+    if has_sixteenth_notes:
+        # Use 16th notes (16 notes per bar)
+        notes = []
+        for i in range(16):
+            t = i * 0.25
+            instruments = time_map.get(t, [])
+            
+            keys = []
+            if "kick" in instruments:
+                keys.append("f/4")
+            if "snare" in instruments:
+                keys.append("c/5")
+            if "hihat_closed" in instruments:
+                keys.append("g/5")
+            
+            if keys:
+                notes.append({
+                    "keys": keys,
+                    "duration": "16"
+                })
+            else:
+                # Rest
+                notes.append({
+                    "keys": ["b/4"],
+                    "duration": "16r"
+                })
+    else:
+        # Use 8th notes (8 notes per bar)
+        notes = []
+        for i in range(8):
+            t = i * 0.5
+            instruments = time_map.get(t, [])
+            
+            keys = []
+            if "kick" in instruments:
+                keys.append("f/4")
+            if "snare" in instruments:
+                keys.append("c/5")
+            if "hihat_closed" in instruments:
+                keys.append("g/5")
+            
+            if keys:
+                notes.append({
+                    "keys": keys,
+                    "duration": "8"
+                })
+            else:
+                # Rest
+                notes.append({
+                    "keys": ["b/4"],
+                    "duration": "8r"
+                })
     
     return {
         "staves": [{

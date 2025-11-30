@@ -15,11 +15,6 @@
       "velocity": 80
     },
     {
-      "time": 0.0,
-      "note": "kick",
-      "velocity": 110
-    },
-    {
       "time": 0.5,
       "note": "hihat_closed",
       "velocity": 80
@@ -81,7 +76,6 @@
               "notes": [
                 {
                   "keys": [
-                    "f/4",
                     "g/5"
                   ],
                   "duration": "8"

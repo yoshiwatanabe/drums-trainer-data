@@ -25,11 +25,6 @@
       "velocity": 80
     },
     {
-      "time": 0.5,
-      "note": "kick",
-      "velocity": 110
-    },
-    {
       "time": 1.0,
       "note": "hihat_closed",
       "velocity": 80
@@ -40,9 +35,24 @@
       "velocity": 100
     },
     {
+      "time": 1.0,
+      "note": "kick",
+      "velocity": 110
+    },
+    {
       "time": 1.5,
       "note": "hihat_closed",
       "velocity": 80
+    },
+    {
+      "time": 1.5,
+      "note": "snare",
+      "velocity": 90
+    },
+    {
+      "time": 1.5,
+      "note": "kick",
+      "velocity": 110
     },
     {
       "time": 2.0,
@@ -60,6 +70,11 @@
       "velocity": 80
     },
     {
+      "time": 2.5,
+      "note": "kick",
+      "velocity": 110
+    },
+    {
       "time": 3.0,
       "note": "hihat_closed",
       "velocity": 80
@@ -70,14 +85,14 @@
       "velocity": 100
     },
     {
-      "time": 3.5,
-      "note": "hihat_closed",
-      "velocity": 80
+      "time": 3.0,
+      "note": "kick",
+      "velocity": 110
     },
     {
       "time": 3.5,
-      "note": "kick",
-      "velocity": 110
+      "note": "hihat_closed",
+      "velocity": 80
     }
   ],
   "notation": {
@@ -98,20 +113,6 @@
                 },
                 {
                   "keys": [
-                    "f/4",
-                    "g/5"
-                  ],
-                  "duration": "8"
-                },
-                {
-                  "keys": [
-                    "c/5",
-                    "g/5"
-                  ],
-                  "duration": "8"
-                },
-                {
-                  "keys": [
                     "g/5"
                   ],
                   "duration": "8"
@@ -119,18 +120,6 @@
                 {
                   "keys": [
                     "f/4",
-                    "g/5"
-                  ],
-                  "duration": "8"
-                },
-                {
-                  "keys": [
-                    "g/5"
-                  ],
-                  "duration": "8"
-                },
-                {
-                  "keys": [
                     "c/5",
                     "g/5"
                   ],
@@ -139,6 +128,35 @@
                 {
                   "keys": [
                     "f/4",
+                    "c/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "c/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
                     "g/5"
                   ],
                   "duration": "8"

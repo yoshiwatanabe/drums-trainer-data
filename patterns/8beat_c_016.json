@@ -80,14 +80,14 @@
       "velocity": 100
     },
     {
-      "time": 3.0,
-      "note": "kick",
-      "velocity": 110
-    },
-    {
       "time": 3.5,
       "note": "hihat_closed",
       "velocity": 80
+    },
+    {
+      "time": 3.5,
+      "note": "kick",
+      "velocity": 110
     }
   ],
   "notation": {
@@ -143,7 +143,6 @@
                 },
                 {
                   "keys": [
-                    "f/4",
                     "c/5",
                     "g/5"
                   ],
@@ -151,6 +150,7 @@
                 },
                 {
                   "keys": [
+                    "f/4",
                     "g/5"
                   ],
                   "duration": "8"
