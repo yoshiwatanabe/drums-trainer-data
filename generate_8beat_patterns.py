@@ -149,24 +149,25 @@ def create_vexflow_notation(events):
         if "hihat_closed" in instruments:
             keys.append("g/5")
         
-        if not keys:
-            # Rest
-            notes.append({"type": "rest", "duration": "8"})
-        else:
+        if keys:
             notes.append({
-                "type": "note",
-                "duration": "8",
-                "keys": keys
+                "keys": keys,
+                "duration": "8"
+            })
+        else:
+            # Rest
+            notes.append({
+                "keys": ["b/4"],
+                "duration": "8r"
             })
     
     return {
         "staves": [{
-            "clef": "percussion",
-            "time_signature": "4/4"
-        }],
-        "voices": [{
-            "time": {"num_beats": 4, "beat_value": 4},
-            "notes": notes
+            "timeSignature": "4/4",
+            "voices": [{
+                "clef": "percussion",
+                "notes": notes
+            }]
         }]
     }
 

@@ -15,24 +15,19 @@
       "velocity": 80
     },
     {
-      "time": 0.0,
-      "note": "kick",
-      "velocity": 110
-    },
-    {
       "time": 0.5,
       "note": "hihat_closed",
       "velocity": 80
     },
     {
-      "time": 0.875,
-      "note": "snare",
-      "velocity": 95
-    },
-    {
       "time": 1.0,
       "note": "hihat_closed",
       "velocity": 80
+    },
+    {
+      "time": 1.0,
+      "note": "snare",
+      "velocity": 100
     },
     {
       "time": 1.5,
@@ -60,19 +55,19 @@
       "velocity": 80
     },
     {
-      "time": 2.5,
-      "note": "snare",
-      "velocity": 60
-    },
-    {
-      "time": 2.875,
-      "note": "snare",
-      "velocity": 95
-    },
-    {
       "time": 3.0,
       "note": "hihat_closed",
       "velocity": 80
+    },
+    {
+      "time": 3.0,
+      "note": "snare",
+      "velocity": 100
+    },
+    {
+      "time": 3.0,
+      "note": "kick",
+      "velocity": 110
     },
     {
       "time": 3.5,
@@ -89,76 +84,65 @@
     "vexflow": {
       "staves": [
         {
-          "clef": "percussion",
-          "time_signature": "4/4"
-        }
-      ],
-      "voices": [
-        {
-          "time": {
-            "num_beats": 4,
-            "beat_value": 4
-          },
-          "notes": [
+          "timeSignature": "4/4",
+          "voices": [
             {
-              "type": "note",
-              "duration": "8",
-              "keys": [
-                "f/4",
-                "g/5"
-              ]
-            },
-            {
-              "type": "note",
-              "duration": "8",
-              "keys": [
-                "g/5"
-              ]
-            },
-            {
-              "type": "note",
-              "duration": "8",
-              "keys": [
-                "g/5"
-              ]
-            },
-            {
-              "type": "note",
-              "duration": "8",
-              "keys": [
-                "f/4",
-                "c/5",
-                "g/5"
-              ]
-            },
-            {
-              "type": "note",
-              "duration": "8",
-              "keys": [
-                "g/5"
-              ]
-            },
-            {
-              "type": "note",
-              "duration": "8",
-              "keys": [
-                "c/5",
-                "g/5"
-              ]
-            },
-            {
-              "type": "note",
-              "duration": "8",
-              "keys": [
-                "g/5"
-              ]
-            },
-            {
-              "type": "note",
-              "duration": "8",
-              "keys": [
-                "f/4",
-                "g/5"
+              "clef": "percussion",
+              "notes": [
+                {
+                  "keys": [
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "c/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "c/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "c/5",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                },
+                {
+                  "keys": [
+                    "f/4",
+                    "g/5"
+                  ],
+                  "duration": "8"
+                }
               ]
             }
           ]
