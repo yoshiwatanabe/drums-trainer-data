@@ -78,6 +78,19 @@
         "8beat_h_021.json", "8beat_h_022.json", "8beat_h_023.json", "8beat_h_024.json", "8beat_h_025.json",
         "8beat_h_026.json", "8beat_h_027.json", "8beat_h_028.json", "8beat_h_029.json", "8beat_h_030.json"
       ]
+    },
+    {
+      "id": "8beat-i",
+      "name": "8-Beat I",
+      "description": "Roll patterns - Snare and tom rolls for hand movement practice",
+      "patterns": [
+        "8beat_i_001.json", "8beat_i_002.json", "8beat_i_003.json", "8beat_i_004.json", "8beat_i_005.json",
+        "8beat_i_006.json", "8beat_i_007.json", "8beat_i_008.json", "8beat_i_009.json", "8beat_i_010.json",
+        "8beat_i_011.json", "8beat_i_012.json", "8beat_i_013.json", "8beat_i_014.json", "8beat_i_015.json",
+        "8beat_i_016.json", "8beat_i_017.json", "8beat_i_018.json", "8beat_i_019.json", "8beat_i_020.json",
+        "8beat_i_021.json", "8beat_i_022.json", "8beat_i_023.json", "8beat_i_024.json", "8beat_i_025.json",
+        "8beat_i_026.json", "8beat_i_027.json", "8beat_i_028.json", "8beat_i_029.json", "8beat_i_030.json"
+      ]
     }
   ]
 }
