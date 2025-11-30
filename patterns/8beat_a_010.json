@@ -1,0 +1,153 @@
+{
+  "id": "8beat_a_010",
+  "title": "8-Beat A #10",
+  "tags": [
+    "8-beat",
+    "group-a"
+  ],
+  "time_signature": "4/4",
+  "bpm_default": 70,
+  "loop_length_beats": 4,
+  "events": [
+    {
+      "time": 0.0,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 0.0,
+      "note": "kick",
+      "velocity": 110
+    },
+    {
+      "time": 0.5,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 1.0,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 1.0,
+      "note": "snare",
+      "velocity": 100
+    },
+    {
+      "time": 1.5,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 2.0,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 2.5,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 3.0,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 3.0,
+      "note": "snare",
+      "velocity": 100
+    },
+    {
+      "time": 3.5,
+      "note": "hihat_closed",
+      "velocity": 80
+    },
+    {
+      "time": 3.5,
+      "note": "kick",
+      "velocity": 110
+    }
+  ],
+  "notation": {
+    "vexflow": {
+      "staves": [
+        {
+          "clef": "percussion",
+          "time_signature": "4/4"
+        }
+      ],
+      "voices": [
+        {
+          "time": {
+            "num_beats": 4,
+            "beat_value": 4
+          },
+          "notes": [
+            {
+              "type": "note",
+              "duration": "8",
+              "keys": [
+                "f/4",
+                "g/5"
+              ]
+            },
+            {
+              "type": "note",
+              "duration": "8",
+              "keys": [
+                "g/5"
+              ]
+            },
+            {
+              "type": "note",
+              "duration": "8",
+              "keys": [
+                "c/5",
+                "g/5"
+              ]
+            },
+            {
+              "type": "note",
+              "duration": "8",
+              "keys": [
+                "g/5"
+              ]
+            },
+            {
+              "type": "note",
+              "duration": "8",
+              "keys": [
+                "g/5"
+              ]
+            },
+            {
+              "type": "note",
+              "duration": "8",
+              "keys": [
+                "g/5"
+              ]
+            },
+            {
+              "type": "note",
+              "duration": "8",
+              "keys": [
+                "c/5",
+                "g/5"
+              ]
+            },
+            {
+              "type": "note",
+              "duration": "8",
+              "keys": [
+                "f/4",
+                "g/5"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
