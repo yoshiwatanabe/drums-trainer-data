@@ -15,19 +15,9 @@
       "velocity": 80
     },
     {
-      "time": 0.0,
-      "note": "kick",
-      "velocity": 110
-    },
-    {
       "time": 0.5,
       "note": "hihat_closed",
       "velocity": 80
-    },
-    {
-      "time": 0.5,
-      "note": "kick",
-      "velocity": 110
     },
     {
       "time": 1.0,
@@ -38,11 +28,6 @@
       "time": 1.0,
       "note": "snare",
       "velocity": 100
-    },
-    {
-      "time": 1.0,
-      "note": "kick",
-      "velocity": 110
     },
     {
       "time": 1.5,
@@ -91,21 +76,18 @@
               "notes": [
                 {
                   "keys": [
-                    "f/4",
                     "g/5"
                   ],
                   "duration": "8"
                 },
                 {
                   "keys": [
-                    "f/4",
                     "g/5"
                   ],
                   "duration": "8"
                 },
                 {
                   "keys": [
-                    "f/4",
                     "c/5",
                     "g/5"
                   ],

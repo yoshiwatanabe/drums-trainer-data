@@ -138,36 +138,32 @@ def create_vexflow_notation(events):
     # Get all unique time positions and sort them
     all_times = sorted(set([evt["time"] for evt in events]))
     
-    # Use 8th notes (8 notes per bar)
-    notes = []
-    for i in range(8):
-        t = i * 0.5
-        # Round times to nearest 8th note (for any 16th note syncopation)
-        instruments = []
-        for check_time in [t - 0.125, t, t + 0.125]:
-            if check_time in time_map:
-                instruments.extend(time_map[check_time])
-        instruments = list(set(instruments))  # Remove duplicates
-
-        keys = []
-        if "kick" in instruments:
-            keys.append("f/4")
-        if "snare" in instruments:
-            keys.append("c/5")
-        if "hihat_closed" in instruments:
-            keys.append("g/5")
-
-        if keys:
-            notes.append({
-                "keys": keys,
-                "duration": "8"
-            })
-        else:
-            # Rest
-            notes.append({
-                "keys": ["b/4"],
-                "duration": "8r"
-            })
+    
+        # Use 8th notes (8 notes per bar)
+        notes = []
+        for i in range(8):
+            t = i * 0.5
+            instruments = time_map.get(t, [])
+            
+            keys = []
+            if "kick" in instruments:
+                keys.append("f/4")
+            if "snare" in instruments:
+                keys.append("c/5")
+            if "hihat_closed" in instruments:
+                keys.append("g/5")
+            
+            if keys:
+                notes.append({
+                    "keys": keys,
+                    "duration": "8"
+                })
+            else:
+                # Rest
+                notes.append({
+                    "keys": ["b/4"],
+                    "duration": "8r"
+                })
     
     return {
         "staves": [{
