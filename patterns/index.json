@@ -17,6 +17,19 @@
         "8beat_a_041.json", "8beat_a_042.json", "8beat_a_043.json", "8beat_a_044.json", "8beat_a_045.json",
         "8beat_a_046.json", "8beat_a_047.json", "8beat_a_048.json", "8beat_a_049.json", "8beat_a_050.json"
       ]
+    },
+    {
+      "id": "8beat-d",
+      "name": "8-Beat D",
+      "description": "Hihat variations - Open and closed hihat patterns",
+      "patterns": [
+        "8beat_d_001.json", "8beat_d_002.json", "8beat_d_003.json", "8beat_d_004.json", "8beat_d_005.json",
+        "8beat_d_006.json", "8beat_d_007.json", "8beat_d_008.json", "8beat_d_009.json", "8beat_d_010.json",
+        "8beat_d_011.json", "8beat_d_012.json", "8beat_d_013.json", "8beat_d_014.json", "8beat_d_015.json",
+        "8beat_d_016.json", "8beat_d_017.json", "8beat_d_018.json", "8beat_d_019.json", "8beat_d_020.json",
+        "8beat_d_021.json", "8beat_d_022.json", "8beat_d_023.json", "8beat_d_024.json", "8beat_d_025.json",
+        "8beat_d_026.json", "8beat_d_027.json", "8beat_d_028.json", "8beat_d_029.json", "8beat_d_030.json"
+      ]
     }
   ]
 }
