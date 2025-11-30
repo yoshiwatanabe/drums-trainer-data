@@ -65,6 +65,19 @@
         "8beat_g_011.json", "8beat_g_012.json", "8beat_g_013.json", "8beat_g_014.json", "8beat_g_015.json",
         "8beat_g_016.json", "8beat_g_017.json", "8beat_g_018.json", "8beat_g_019.json", "8beat_g_020.json"
       ]
+    },
+    {
+      "id": "8beat-h",
+      "name": "8-Beat H",
+      "description": "Kick and Snare only - Comprehensive kick pattern variations",
+      "patterns": [
+        "8beat_h_001.json", "8beat_h_002.json", "8beat_h_003.json", "8beat_h_004.json", "8beat_h_005.json",
+        "8beat_h_006.json", "8beat_h_007.json", "8beat_h_008.json", "8beat_h_009.json", "8beat_h_010.json",
+        "8beat_h_011.json", "8beat_h_012.json", "8beat_h_013.json", "8beat_h_014.json", "8beat_h_015.json",
+        "8beat_h_016.json", "8beat_h_017.json", "8beat_h_018.json", "8beat_h_019.json", "8beat_h_020.json",
+        "8beat_h_021.json", "8beat_h_022.json", "8beat_h_023.json", "8beat_h_024.json", "8beat_h_025.json",
+        "8beat_h_026.json", "8beat_h_027.json", "8beat_h_028.json", "8beat_h_029.json", "8beat_h_030.json"
+      ]
     }
   ]
 }
