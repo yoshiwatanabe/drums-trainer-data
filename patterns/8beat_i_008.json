@@ -13,8 +13,7 @@
                 {
                   "keys": [
                     "a/5",
-                    "f/4",
-                    "g/5"
+                    "f/4"
                   ],
                   "duration": "8"
                 },
@@ -28,8 +27,7 @@
                   "keys": [
                     "a/5",
                     "c/5",
-                    "f/4",
-                    "g/5"
+                    "f/4"
                   ],
                   "duration": "8"
                 },
@@ -48,8 +46,7 @@
                 {
                   "keys": [
                     "a/5",
-                    "f/4",
-                    "g/5"
+                    "f/4"
                   ],
                   "duration": "8"
                 },
@@ -81,11 +78,6 @@
     },
     {
       "time": 0.0,
-      "note": "hihat_closed",
-      "velocity": 0.6
-    },
-    {
-      "time": 0.0,
       "note": "kick",
       "velocity": 0.8
     },
@@ -98,11 +90,6 @@
       "time": 1.0,
       "note": "crash",
       "velocity": 0.9
-    },
-    {
-      "time": 1.0,
-      "note": "hihat_closed",
-      "velocity": 0.6
     },
     {
       "time": 1.0,
@@ -128,11 +115,6 @@
       "time": 2.5,
       "note": "crash",
       "velocity": 0.9
-    },
-    {
-      "time": 2.5,
-      "note": "hihat_closed",
-      "velocity": 0.6
     },
     {
       "time": 2.5,

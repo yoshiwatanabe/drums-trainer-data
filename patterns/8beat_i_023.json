@@ -13,8 +13,7 @@
                 {
                   "keys": [
                     "a/5",
-                    "f/4",
-                    "g/5"
+                    "f/4"
                   ],
                   "duration": "8"
                 },
@@ -28,24 +27,21 @@
                   "keys": [
                     "c/5",
                     "f/4",
-                    "f/5",
-                    "g/5"
+                    "f/5"
                   ],
                   "duration": "8"
                 },
                 {
                   "keys": [
                     "a/5",
-                    "f/4",
-                    "g/5"
+                    "f/4"
                   ],
                   "duration": "8"
                 },
                 {
                   "keys": [
                     "f/4",
-                    "f/5",
-                    "g/5"
+                    "f/5"
                   ],
                   "duration": "8"
                 },
@@ -59,16 +55,14 @@
                   "keys": [
                     "a/5",
                     "c/5",
-                    "f/4",
-                    "g/5"
+                    "f/4"
                   ],
                   "duration": "8"
                 },
                 {
                   "keys": [
                     "f/4",
-                    "f/5",
-                    "g/5"
+                    "f/5"
                   ],
                   "duration": "8"
                 }
@@ -87,21 +81,11 @@
     },
     {
       "time": 0.0,
-      "note": "hihat_closed",
-      "velocity": 0.6
-    },
-    {
-      "time": 0.0,
       "note": "kick",
       "velocity": 0.8
     },
     {
       "time": 0.5,
-      "note": "hihat_closed",
-      "velocity": 0.6
-    },
-    {
-      "time": 1.0,
       "note": "hihat_closed",
       "velocity": 0.6
     },
@@ -127,18 +111,8 @@
     },
     {
       "time": 1.5,
-      "note": "hihat_closed",
-      "velocity": 0.6
-    },
-    {
-      "time": 1.5,
       "note": "kick",
       "velocity": 0.8
-    },
-    {
-      "time": 2.0,
-      "note": "hihat_closed",
-      "velocity": 0.6
     },
     {
       "time": 2.0,
@@ -162,11 +136,6 @@
     },
     {
       "time": 3.0,
-      "note": "hihat_closed",
-      "velocity": 0.6
-    },
-    {
-      "time": 3.0,
       "note": "kick",
       "velocity": 0.8
     },
@@ -174,11 +143,6 @@
       "time": 3.0,
       "note": "snare",
       "velocity": 0.8
-    },
-    {
-      "time": 3.5,
-      "note": "hihat_closed",
-      "velocity": 0.6
     },
     {
       "time": 3.5,

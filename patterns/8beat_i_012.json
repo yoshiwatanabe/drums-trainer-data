@@ -13,8 +13,7 @@
                 {
                   "keys": [
                     "f/4",
-                    "f/5",
-                    "g/5"
+                    "f/5"
                   ],
                   "duration": "8"
                 },
@@ -34,16 +33,14 @@
                 {
                   "keys": [
                     "f/4",
-                    "f/5",
-                    "g/5"
+                    "f/5"
                   ],
                   "duration": "8"
                 },
                 {
                   "keys": [
                     "f/4",
-                    "f/5",
-                    "g/5"
+                    "f/5"
                   ],
                   "duration": "8"
                 },
@@ -63,8 +60,7 @@
                 {
                   "keys": [
                     "f/4",
-                    "f/5",
-                    "g/5"
+                    "f/5"
                   ],
                   "duration": "8"
                 }
@@ -76,11 +72,6 @@
     }
   },
   "events": [
-    {
-      "time": 0.0,
-      "note": "hihat_closed",
-      "velocity": 0.6
-    },
     {
       "time": 0.0,
       "note": "kick",
@@ -108,11 +99,6 @@
     },
     {
       "time": 1.5,
-      "note": "hihat_closed",
-      "velocity": 0.6
-    },
-    {
-      "time": 1.5,
       "note": "kick",
       "velocity": 0.8
     },
@@ -120,11 +106,6 @@
       "time": 1.5,
       "note": "ride",
       "velocity": 0.7
-    },
-    {
-      "time": 2.0,
-      "note": "hihat_closed",
-      "velocity": 0.6
     },
     {
       "time": 2.0,
@@ -150,11 +131,6 @@
       "time": 3.0,
       "note": "snare",
       "velocity": 0.8
-    },
-    {
-      "time": 3.5,
-      "note": "hihat_closed",
-      "velocity": 0.6
     },
     {
       "time": 3.5,

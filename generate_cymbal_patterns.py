@@ -8,16 +8,22 @@ Includes variations: crash only, ride only, mixed, different kick patterns.
 import json
 import os
 
-def create_basic_accompaniment():
-    """Create basic 8-beat hihat on all 8th notes + snare backbeat (beats 2, 4)"""
+def create_basic_accompaniment(cymbal_positions):
+    """Create basic 8-beat hihat on all 8th notes + snare backbeat (beats 2, 4)
+    
+    Args:
+        cymbal_positions: Set of times where cymbals are played (no hihat at these positions)
+    """
     events = []
-    # Hihat on all 8th notes (closed)
+    # Hihat on all 8th notes (closed), except where cymbals are played
     for i in range(8):
-        events.append({
-            "time": i * 0.5,
-            "note": "hihat_closed",
-            "velocity": 0.6
-        })
+        time = i * 0.5
+        if time not in cymbal_positions:
+            events.append({
+                "time": time,
+                "note": "hihat_closed",
+                "velocity": 0.6
+            })
     # Snare on beats 2 and 4
     events.append({"time": 1.0, "note": "snare", "velocity": 0.8})
     events.append({"time": 3.0, "note": "snare", "velocity": 0.8})
@@ -131,8 +137,11 @@ def generate_pattern(number, kick_pattern, cymbal_type, description):
             })
     events.extend(cymbal_events)
     
-    # Add basic accompaniment (hihat + snare)
-    events.extend(create_basic_accompaniment())
+    # Extract cymbal positions for hihat exclusion
+    cymbal_positions = set(evt["time"] for evt in cymbal_events)
+    
+    # Add basic accompaniment (hihat + snare), excluding hihat at cymbal positions
+    events.extend(create_basic_accompaniment(cymbal_positions))
     
     # Sort by time
     events.sort(key=lambda e: (e["time"], e["note"]))
